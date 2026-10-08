@@ -1,0 +1,30 @@
+{
+  "name": "relampago",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Relâmpago — assistente de voz pessoal integrado ao Google Agenda.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "googleapis": "^182.0.0",
+    "next": "^16.3.8",
+    "openai": "^7.27.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}
